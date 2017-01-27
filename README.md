@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: Constraint Propagation is all about using local constraints in a space (in the case of Sudoku, the constraints of each square) to dramatically reduce the search space. Since each box only alows a single digit to occupy space, when same two digit appreas in two boxes, we can 
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: For the diagonal sudoku problem, we use the same constraint propagation method as for regular sudokus. Here by adding two diagonal units we are resistricting the space. This result in faster result. 
 
 ### Install
 

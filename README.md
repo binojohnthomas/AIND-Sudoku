@@ -7,7 +7,7 @@ A: Constraint Propagation is all about using local constraints in a space (in th
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: For the diagonal sudoku problem, we use the same constraint propagation method as for regular sudokus. Here by adding two diagonal units we are resistricting the space. This result in faster result. 
+A: For the diagonal sudoku problem, we use the same constraint propagation method as for regular sudokus. Here by adding two diagonal units we are resistricting the space. Thus constraint propagation chop off the 'to-fill' search space.
 
 ### Install
 

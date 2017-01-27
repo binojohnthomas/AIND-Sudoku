@@ -1,6 +1,12 @@
 assignments = []
 rows = 'ABCDEFGHI'
 cols = '123456789'
+
+def cross(A, B):
+    "Cross product of elements in A and elements in B."
+    return [r + c for r in A for c in B]
+
+
 boxes = cross(rows, cols)
 row_units = [cross(r, cols) for r in rows]
 column_units = [cross(rows, c) for c in cols]
@@ -83,9 +89,7 @@ def display(values):
     return
 
 
-def cross(A, B):
-    "Cross product of elements in A and elements in B."
-    return [r + c for r in A for c in B]
+
 
 
 def eliminate(values):
